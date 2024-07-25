@@ -1,8 +1,8 @@
 $file = 'C:\Program Files\EqualizerAPO\config\config.txt'
-$shortcut1 = 'C:\Users\E\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\HeSuVi\Buds FE Binaural.lnk'
-$shortcut2 = 'C:\Users\E\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\HeSuVi\Buds FE Stereo.lnk'
-$shortcut3 = 'C:\Users\E\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\HeSuVi\Buds FE Warzone.lnk'
-$shortcut4 = 'C:\Users\E\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\HeSuVi\Warzone.lnk'
+$shortcut1 = 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Audio Presets\Buds FE Binaural.lnk'
+$shortcut2 = 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Audio Presets\Buds FE Stereo.lnk'
+$shortcut3 = 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Audio Presets\Buds FE Warzone.lnk'
+$shortcut4 = 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Audio Presets\Warzone.lnk'
 
 # Display options to the user
 Write-Host "1. Buds FE Binaural"
@@ -63,7 +63,6 @@ switch ($option) {
     }
     default {
         Write-Host "Invalid option selected."
-        # Handle other cases (e.g., display an error message)
     }
 }
 
