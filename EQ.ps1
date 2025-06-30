@@ -27,33 +27,33 @@ switch ($option) {
    '1' {
         # Buds FE Binaural
         $content[-5] = "Preamp: -25.8 dB"
-        $content[-4] = "# Include: PreCompressor.txt"
-	$content[-3] = "Include: HeSuVi\hesuvi.txt"
-        $content[-2] = "# Include: peace.txt"
+        $content[-4] = "Include: HeSuVi\hesuvi.txt"
+	$content[-3] = "# Include: peace.txt"
+        $content[-2] = "# Include: PreCompressor.txt"
         $content[-1] = "Include: DynamiQ-master\DynamiQ.txt"
     }
    '2' {
         # Buds FE Stereo
         $content[-5] = "Preamp: -10.7 dB"
-	$content[-4] = "# Include: PreCompressor.txt"
-        $content[-3] = "Include: HeSuVi\hesuvi.txt"
-        $content[-2] = "# Include: peace.txt"
+	$content[-4] = "Include: HeSuVi\hesuvi.txt"
+        $content[-3] = "# Include: peace.txt"
+        $content[-2] = "# Include: PreCompressor.txt"
         $content[-1] = "Include: DynamiQ-master\DynamiQ.txt"
     }
    '3' {
         # Warzone
         $content[-5] = "Preamp: -5.0 dB"
-	$content[-4] = "Include: PreCompressor.txt"
-        $content[-3] = "Include: HeSuVi\hesuvi.txt"
-        $content[-2] = "Include: peace.txt"
+	$content[-4] = "Include: HeSuVi\hesuvi.txt"
+        $content[-3] = "Include: peace.txt"
+        $content[-2] = "Include: PreCompressor.txt"
         $content[-1] = "Include: DynamiQ-master\DynamiQ.txt"
     }
    '4' {
         # None - Comment out lines
         $content[-5] = "# Preamp: 0 dB"
-	$content[-4] = "# Include: PreCompressor.txt"
-        $content[-3] = "# Include HeSuVi\hesuvi.txt"
-        $content[-2] = "# Include: peace.txt"
+	$content[-4] = "# Include HeSuVi\hesuvi.txt"
+        $content[-3] = "# Include: peace.txt"
+        $content[-2] = "# Include: PreCompressor.txt"
         $content[-1] = "# Include: DynamiQ-master\DynamiQ.txt"
     }
     default {
