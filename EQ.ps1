@@ -66,7 +66,7 @@ switch ($option) {
     '1' { Start-Process $shortcut1 }
     '2' { Start-Process $shortcut2 }
     '3' { Start-Process $shortcut3 }
-    '4' { Start-Process $shortcut3 }
+    '4' { }
 }
 
 # Write modified content back to $file
