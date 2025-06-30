@@ -1,4 +1,4 @@
-$DIR = "C:\Users\E\AppData\Roaming\Microsoft\Windows\Start Menu"
+$DIR = "C:\Users\E\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Audio"
 if (-Not (Test-Path $DIR)) { Write-Error "$DIR not found"; exit }
 @(
   "EQ.ps1",
